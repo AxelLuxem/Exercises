@@ -5,6 +5,7 @@
  * @param {string} line
  * @returns {string}
  */
+
 export const frontDoorResponse = (line) => line[0];
 
 /**
@@ -14,9 +15,8 @@ export const frontDoorResponse = (line) => line[0];
  * @param {string} word the letters you responded with before
  * @returns {string} the front door password
  */
-export const frontDoorPassword = (word) => {
-  return word[0].toUpperCase() + word.slice(1).toLocaleLowerCase();
-};
+
+export const frontDoorPassword = (word) => word[0].toUpperCase() + word.slice(1).toLocaleLowerCase();
 
 /**
  * Respond with the correct character, given the line of the
