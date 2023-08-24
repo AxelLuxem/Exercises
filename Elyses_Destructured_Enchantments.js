@@ -55,4 +55,4 @@ const FACE_CARDS = ['jack', 'queen', 'king'];
  * third, and fourth cards are the face cards
  */
 
-export const insertFaceCards = (before, ...after) => return [before, ...FACE_CARDS, ...after];
+export const insertFaceCards = ([before, ...after]) => before, ...FACE_CARDS, ...after];
